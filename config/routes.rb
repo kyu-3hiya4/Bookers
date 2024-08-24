@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  # root to: "books:top"
+# ↑でアプケ開いた時にtop画面になるはず
+# resources :books
+# ↑でルーティングすべておっけーのはず
   get 'books/new'
   get 'books/index'
   get 'books/show'
