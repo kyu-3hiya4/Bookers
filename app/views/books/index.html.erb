@@ -12,4 +12,8 @@
  <%= link_to "show", book_path(book.id} %>
 </span>
 
- <% end %>
+<span>
+<%= link_to "Destroy", destroy_book_path(@book.id), method: :delete, "data-confirm" => "Are you sure?" %>
+</span>
+
+<% end %>
