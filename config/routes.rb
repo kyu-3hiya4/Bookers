@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # root to: "homes#top"
+  root to: "homes#top"
 
 # ↑でアプケ開いた時にtop画面になるはず
   resources :books
