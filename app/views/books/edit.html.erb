@@ -1,10 +1,14 @@
+<div class="bookedit">
 <h1>Editing Book</h1>
 <%= form_with model: @book, url: book_path(@book.id), method: :patch do |f| %>
 
- <h5>Title</h5>
+ <label for="book title">Title</label>
+ <br>
  <%= f.text_field :title %>
 
- <h5>Body</h5>
+ <br>
+ <label for="book body">Body</label>
+ <br>
  <%= f.text_area :body %>
 
  <br>
@@ -14,7 +18,9 @@
  <span>
  <%= link_to "show", book_path(@book.id) %>
 </span>
-
+|
 <a href = "/books">Back</a>
 
  <% end %>
+
+ </div>
