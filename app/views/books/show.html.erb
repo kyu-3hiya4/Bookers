@@ -1,11 +1,19 @@
-<h3>Title:</h3>
+<div class="bookshow">
 
-<p><%= @book.title %></p>
+<section class="bookshow1">
+<p><strong>Title:</strong><%= @book.title %></p>
+</section>
 
-<h3>Body:</h3>
-
-<P><%= @book.body %></P>
+<section class="bookshow2">
+<P><strong>Body:</strong><%= @book.body %></P>
+</section>
 
 <%= link_to "Edit",edit_book_path(@book.id) %>
 
+|
+
 <a href = "/books">Back</a>
+
+
+
+</div>
