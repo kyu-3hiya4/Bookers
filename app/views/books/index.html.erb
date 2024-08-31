@@ -1,3 +1,4 @@
+<div class="bookindex">
 <h1>Books</h1>
 
 <table>
@@ -24,7 +25,7 @@
 
 <br>
 
-<h2>New book</h2>
+  <h2>New book</h2>
 
  <%= form_with model: @book, url: '/books', method: :post do |f| %>
  <h5>Title</h5>
@@ -36,3 +37,5 @@
 <br>
  <%= f.submit 'Create Book' %>
 <% end %>
+
+</div>

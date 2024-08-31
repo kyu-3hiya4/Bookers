@@ -35,3 +35,13 @@
 .booktop3 {
   margin: 33px;
 }
+
+.bookindex {
+  margin: 33px;
+}
+
+table td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
