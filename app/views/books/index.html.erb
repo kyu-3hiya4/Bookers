@@ -32,7 +32,8 @@
 
   <h2>New book</h2>
    <% if @book.errors.any? %>
-    <%= @book.errors.count %>An error occurred
+    <%= @book.errors.count %> An error occurred
+    
     <ul>
      <% @book.errors.full_messages.each do |message| %>
      <li><%= message %></li>
